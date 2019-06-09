@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.messageanalytics"
+    },
+    "jhipsterVersion": "5.4.2",
+    "applicationType": "monolith",
+    "baseName": "MessageAnalytics",
+    "packageName": "com.messageanalytics",
+    "packageFolder": "com/messageanalytics",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MjNiYWE1NzM3MjI0MDA0MmY2Yzg1N2QwZTJiZDIwYjdlNjkwZTYyY2E1N2MzNGMxZDRjOWU4ZTgyYzU1NTU0MTRiZjEyYTUxNmM3MzM3NjAwYzMzZWQyMjI5NmI0OTRiMTZmYzI0MWMyZDdhYzA3NmQzNDhmZTZmZTM5MTRmOGM=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false
+  }
+}

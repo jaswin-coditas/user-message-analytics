@@ -1,0 +1,25 @@
+<div class="jumbotron py-3 bg-light">
+  <div class="container px-0">
+    <div class="d-flex justify-content-center align-items-center">
+      <h1>Top Five Users</h1>
+    </div>
+  </div>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">User Name</th>
+      <th scope="col">Messages Sent</th>
+      <th scope="col">Frequent Message</th>
+    </tr>
+  </thead>
+  <tbody *ngIf="topFiveUsers">
+    <tr *ngFor="let user of topFiveUsers;let i=index">
+      <th scope="row">{{i+1}}</th>
+      <td>{{user.userName}}</td>
+      <td>{{user.frequentMessage}}</td>
+      <td>{{user.messageCount}}</td>
+    </tr>
+  </tbody>
+</table>
